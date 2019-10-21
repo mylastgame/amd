@@ -4,12 +4,9 @@
 namespace App\Domain\Context\Claim\VO;
 
 
-class PaymentType
+class ClaimType
 {
     private $type;
-    /**
-     * @var string
-     */
     private $title;
 
     public function __construct(int $type, string $title)
